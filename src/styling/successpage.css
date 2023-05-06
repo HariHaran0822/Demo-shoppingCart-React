@@ -1,0 +1,17 @@
+.billad{
+    display: flex;
+    justify-content: space-between;
+    font-size: 10px;;
+}
+
+.billprod{
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+}
+.col2{
+    margin-left: 90px;
+}
+.col1{
+    margin-left: 30px;
+}

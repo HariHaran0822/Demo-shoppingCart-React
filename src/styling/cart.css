@@ -1,0 +1,126 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+.article{
+    width:60%;
+    margin: auto;
+    padding: 100px;
+   
+   
+}
+.cart-box img{
+    width:50%;
+    height: 50%;
+    
+}
+
+.cart-img{
+    display:flex;
+    width:400px;
+    background-color: white;
+    line-height: 300px;
+}
+
+.cart-img p{
+    font-weight:bold;
+    margin-left:20px;
+    line-height: 200px;
+}
+
+.cart-box{
+    display:flex;
+    align-items: center;
+    justify-content:space-evenly;
+    margin-top:20px;
+    padding-bottom: 5px;
+    padding:10px;
+    
+   
+}
+
+.cart-box div:nth-child(2) button{
+    padding:5px 10px;
+    font-weight: bold;
+    margin-right: 5px;
+}
+.cart-box div:nth-child(2) button{
+    padding: 5px 10px;
+    font-weight:bold;
+    letter-spacing: 1px;
+    border:none;
+    outline: none;
+    color:orange;
+    background-color:black;
+    border-radius:5px;
+    cursor:pointer;}
+
+
+    .total{
+        display: flex;
+        justify-content:center;
+        color:black;
+        background-color: black;
+        padding: 10px;
+    }
+
+    .totals{
+        display: flex;
+        justify-content:center;
+        /* color:black; */
+        /* background-color: black; */
+        padding: 10px;
+    }
+
+    .total span:nth-child(1){
+        font-size: 20px;
+        color:orange;
+        font-weight: bold;
+        /* font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+        letter-spacing: 1px;
+    }
+    .total span:nth-child(2){
+        font-size: 20px;
+        color:rgb(95, 248, 95);
+        font-weight: bold;
+
+    }
+
+    .total span:nth-child(3){
+        font-size: 20px;
+        color:rgb(95, 248, 95);
+        font-weight: bold;
+
+    }
+    .remove button{
+     
+        color:white;
+        padding:0px 10px;
+        margin-left: 10px;
+    }
+    .card-body{
+width:100%;
+margin:auto;
+    
+}
+.remove p{
+    background-color:black ;
+    color:orange;
+    padding:5px 10px;
+    
+}
+.remove{
+    display: flex;
+    justify-content: space-between;
+}
+.proced-button{
+    margin-left:1000px
+}
+.pc{
+   margin-left: 100px;;
+}
+.mnav{position: relative;
+    margin-top: 50px;
+    margin-right: 1000px;
+}
